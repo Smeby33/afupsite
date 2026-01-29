@@ -22,6 +22,11 @@ const footerLinks = {
 };
 
 export const Footer = () => {
+  const socialLinks = [
+    { name: "LinkedIn", href: "#" },
+    { name: "Twitter", href: "#" },
+    { name: "Facebook", href: "https://www.facebook.com/share/1815c5RhbE/" },
+  ];
   return (
     <footer className="bg-foreground text-background pt-16 pb-8">
       <div className="container-custom px-6">
@@ -44,14 +49,16 @@ export const Footer = () => {
               au Gabon et en Afrique Centrale.
             </p>
             <div className="flex gap-4">
-              {["LinkedIn", "Twitter", "Facebook"].map((social) => (
+              {socialLinks.map((social) => (
                 <motion.a
-                  key={social}
-                  href="#"
+                  key={social.name}
+                  href={social.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.1, y: -2 }}
                   className="w-10 h-10 bg-background/10 rounded-full flex items-center justify-center hover:bg-primary/20 transition-colors"
                 >
-                  <span className="text-xs font-semibold">{social[0]}</span>
+                  <span className="text-xs font-semibold">{social.name[0]}</span>
                 </motion.a>
               ))}
             </div>

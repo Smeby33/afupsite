@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { ExternalLink, Building2, ShoppingBag, GraduationCap } from "lucide-react";
+import { ExternalLink, Building2, ShoppingBag, GraduationCap, ArrowRight } from "lucide-react";
 
 const projects = [
   {
@@ -112,17 +112,21 @@ export const Projects = () => {
                   Voir le projet
                   <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
                 </motion.button>
-                <motion.button
-                  whileHover={{ x: 5 }}
-                  className="flex items-center gap-2 text-primary font-medium text-sm group/link"
-                >
-                  Voir notre Marketplace
-                  <ExternalLink className="w-4 h-4 group-hover/link:translate-x-1 transition-transform" />
-                </motion.button>
               </div>
             </motion.div>
           ))}
         </div>
+        <h3 className="font-display text-xl text-center text-black font-semibold text-background-green mb-3">
+              <a href="http://"></a>  
+        </h3>
+        <motion.button
+                whileHover={{ scale: 1.02 }}
+                whileTap={{ scale: 0.98 }}
+                className="flex items-center gap-2 w-full justify-center py-3 bg-primary text-primary-foreground rounded-xl font-semibold"
+              >
+               <a href="http://store.afup-tech.com"> Voir notre Marketplace </a> 
+                <ArrowRight className="w-4 h-4" />
+              </motion.button>
       </div>
     </section>
   );
