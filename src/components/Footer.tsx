@@ -123,7 +123,7 @@ export const Footer = () => {
               © 2024 AFUP Technology. Tous droits réservés.
             </p>
             <p className="text-background/50 text-sm">
-              Conçu avec 💚 à Libreville, Gabon
+              Conçu par l' équipe MNS ProblemSolver d'AFUP Technology à Libreville, Gabon
             </p>
           </div>
         </div>
