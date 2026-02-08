@@ -66,7 +66,7 @@ export const Hero = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="text-background/60 text-lg md:text-xl max-w-2xl mx-auto mb-12"
         >
-          AFUP Technology conçoit des logiciels web et des solutions numériques 
+          afup Technology conçoit des logiciels web et des solutions numériques 
           innovantes pour les particuliers, les entreprises et les institutions publiques.
         </motion.p>
 

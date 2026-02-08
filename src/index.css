@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
-/* AFUP TECHNOLOGIE Design System
+/* afup TECHNOLOGIE Design System
    Charte: Noir #000000, Blanc #FFFFFF, Vert #0A9F18
 */
 
@@ -20,7 +20,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 0 0% 0%;
 
-    /* Primary: AFUP Green */
+    /* Primary: afup Green */
     --primary: 130 90% 33%;
     --primary-foreground: 0 0% 100%;
 
@@ -43,7 +43,7 @@
 
     --radius: 0.75rem;
 
-    /* Custom AFUP variables */
+    /* Custom afup variables */
     --afup-green: 130 90% 33%;
     --afup-green-light: 130 60% 50%;
     --afup-green-glow: 130 90% 45%;

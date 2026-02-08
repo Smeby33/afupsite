@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
-import logoAfup from "@/assets/logo-afup.jpeg";
+import logoafup from "@/assets/logo-afup.jpeg";
 
 const navLinks = [
   { name: "Accueil", href: "#accueil" },
@@ -43,8 +43,8 @@ export const Navbar = () => {
           className="flex items-center gap-3"
         >
           <img
-            src={logoAfup}
-            alt="AFUP Technology"
+            src={logoafup}
+            alt="afup Technology"
             className="h-12 w-auto object-contain"
           />
         </motion.a>

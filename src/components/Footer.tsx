@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import logoAfup from "@/assets/logo-afup.jpeg";
+import logoafup from "@/assets/logo-afup.jpeg";
 
 const footerLinks = {
   services: [
@@ -39,8 +39,8 @@ export const Footer = () => {
               className="inline-block mb-6"
             >
               <img
-                src={logoAfup}
-                alt="AFUP Technology"
+                src={logoafup}
+                alt="afup Technology"
                 className="h-14 w-auto object-contain bg-background rounded-lg p-2"
               />
             </motion.a>
@@ -120,10 +120,10 @@ export const Footer = () => {
         <div className="pt-8 border-t border-background/10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-background/50 text-sm">
-              © 2024 AFUP Technology. Tous droits réservés.
+              © 2024 afup Technology. Tous droits réservés.
             </p>
             <p className="text-background/50 text-sm">
-              Conçu par l' équipe MNS ProblemSolver d'AFUP Technology à Libreville, Gabon
+              Conçu par l' équipe MNS ProblemSolver d'afup Technology à Libreville, Gabon
             </p>
           </div>
         </div>

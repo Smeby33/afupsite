@@ -58,7 +58,7 @@ export const About = () => {
               <span className="text-gradient"> de confiance</span>
             </h2>
             <p className="text-background/70 text-lg mb-8 leading-relaxed">
-              AFUP Technology est une startup gabonaise basée à Libreville, 
+              afup Technology est une startup gabonaise basée à Libreville, 
               spécialisée dans le développement de solutions digitales innovantes. 
               Notre mission est d'accompagner la transformation numérique des 
               entreprises, des particuliers et des institutions publiques au Gabon 
